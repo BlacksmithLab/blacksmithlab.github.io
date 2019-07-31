@@ -10092,3 +10092,20 @@ h6 {
 .feature-box-06 {
     background-color:#fff;
 }
+ 
+    table {
+        width:100%;
+        font-size: 18px;
+    }
+        table th {
+            background-color: #15db95;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            color: #fff;
+            padding: 10px 30px;
+        }
+        table td {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 30px;
+        }
