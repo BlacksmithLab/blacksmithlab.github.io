@@ -10826,3 +10826,8 @@ table {
         padding-right: 0px;
     }
 }
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
