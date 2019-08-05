@@ -39,7 +39,8 @@ Table of contents
 37.space
 ----------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Pacifico");
+/*@import url("https://fonts.googleapis.com/css?family=Pacifico");*/
+@import url("font.css");
 
 .overlay-link {
     position: absolute;
@@ -553,7 +554,8 @@ Table of contents
 *	General
 ------------------------*/
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Noto Sans KR","Apple SD Gothic Neo","애플 SD 산돌고딕 Neo","Helvetica Neue",Montserrat, sans-serif;
+    /*font-family: "Montserrat", sans-serif;*/
     font-size: 15px;
     color: #57667E;
     font-weight: 400;
@@ -10790,8 +10792,37 @@ table {
 
 .about-text {
     text-align: left;
+    
 }
 
-    .about-text p {
-        padding-bottom: 10px;
+.about-text p {
+    padding-bottom: 10px;
+    font-size: 17px !important;
+}
+
+.testimonial-col-01 .tc-info h5 {
+    font-size: 18px;
+}
+
+#business h2 {
+    padding-bottom: 2rem;
+    color: #2B4E7A;
+}
+#business p {
+    padding-top: 1rem;
+    font-size: 16px;
+    min-height: 70px;
+    color: #4358A7;
+}
+
+@media (min-width: 992px) {
+    #home {
+        padding-top: 200px;
     }
+
+
+    #home .col-lg-4 .hb-text {
+        margin-right: -150px !important;
+        padding-right: 0px;
+    }
+}
